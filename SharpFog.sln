@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7EA33035-4E78-4F69-9F20-A8E1B5A23C14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E33770A-2CA9-4945-9B9C-BE52719B4755}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SharpFog", "src\SharpFog\SharpFog.xproj", "{DA1A4084-1C95-4F60-98BE-A9A3B4E94654}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA1A4084-1C95-4F60-98BE-A9A3B4E94654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1A4084-1C95-4F60-98BE-A9A3B4E94654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1A4084-1C95-4F60-98BE-A9A3B4E94654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1A4084-1C95-4F60-98BE-A9A3B4E94654}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA1A4084-1C95-4F60-98BE-A9A3B4E94654} = {7EA33035-4E78-4F69-9F20-A8E1B5A23C14}
+	EndGlobalSection
+EndGlobal
