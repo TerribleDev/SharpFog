@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SharpFog", "src\SharpFog\SharpFog.xproj", "{DA1A4084-1C95-4F60-98BE-A9A3B4E94654}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SharpFog.Aws", "src\SharpFog.Aws\SharpFog.Aws.xproj", "{0E906FB9-D2A3-4D17-B620-80CFFC4A6D1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{DA1A4084-1C95-4F60-98BE-A9A3B4E94654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA1A4084-1C95-4F60-98BE-A9A3B4E94654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA1A4084-1C95-4F60-98BE-A9A3B4E94654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E906FB9-D2A3-4D17-B620-80CFFC4A6D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E906FB9-D2A3-4D17-B620-80CFFC4A6D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E906FB9-D2A3-4D17-B620-80CFFC4A6D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E906FB9-D2A3-4D17-B620-80CFFC4A6D1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DA1A4084-1C95-4F60-98BE-A9A3B4E94654} = {7EA33035-4E78-4F69-9F20-A8E1B5A23C14}
+		{0E906FB9-D2A3-4D17-B620-80CFFC4A6D1D} = {7EA33035-4E78-4F69-9F20-A8E1B5A23C14}
 	EndGlobalSection
 EndGlobal
